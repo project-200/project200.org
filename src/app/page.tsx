@@ -116,7 +116,7 @@ export default function Home() {
                   At Project 200, we believe in the power of collective action.
                   Our mission is to accelerate progress towards the UN
                   Sustainable Development Goals by 2030. Through innovative
-                  projects, partnerships, and community engagement, we're
+                  projects, partnerships, and community engagement, we&apos;re
                   working to create a more equitable and sustainable world for
                   all.
                 </p>
@@ -135,9 +135,10 @@ export default function Home() {
                 Join Our Team
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-600 md:text-xl">
-                We're always looking for passionate individuals to join our
-                cause. Whether you're interested in volunteering, internships,
-                or career opportunities, there's a place for you at Project 200.
+                We&apos;re always looking for passionate individuals to join our
+                cause. Whether you&apos;re interested in volunteering,
+                internships, or career opportunities, there&apos;s a place for
+                you at Project 200.
               </p>
               <Button variant="outline">View Opportunities</Button>
             </div>
