@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "eslint ./src --fix"
+    "lint:fix": "eslint ./src --fix",
+    "export": "next build && next export",
+    "deploy": "gh-pages -d out",
+    "predeploy": "npm run export"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
