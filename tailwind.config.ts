@@ -10,6 +10,8 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			"project-200-white": "#ffffff",
+       		"project-200-red": "#ff0000",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
