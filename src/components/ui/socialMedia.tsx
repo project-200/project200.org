@@ -5,15 +5,15 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const SocialMediaIcons: React.FC = () => {
   return (
-    <div className="flex justify-center space-x-6">
+    <div className="flex justify-center space-x-6 mt-6">
       {/* Facebook Icon */}
       <a
         href="https://facebook.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-400 hover:text-white transition-colors duration-200"
+        className="bg-[#3C3535] rounded-full p-3 hover:bg-gray-700 transition-colors duration-200"
       >
-        <FacebookIcon/>
+        <FacebookIcon style={{ color: 'white' }} />
       </a>
 
       {/* Twitter Icon */}
@@ -21,9 +21,9 @@ const SocialMediaIcons: React.FC = () => {
         href="https://twitter.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-400 hover:text-white transition-colors duration-200"
+        className="bg-[#3C3535] rounded-full p-3 hover:bg-gray-700 transition-colors duration-200"
       >
-        <TwitterIcon/>
+        <TwitterIcon style={{ color: 'white' }} />
       </a>
 
       {/* Instagram Icon */}
@@ -31,9 +31,9 @@ const SocialMediaIcons: React.FC = () => {
         href="https://instagram.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-400 hover:text-white transition-colors duration-200"
+        className="bg-[#3C3535] rounded-full p-3 hover:bg-gray-700 transition-colors duration-200"
       >
-        <InstagramIcon/>
+        <InstagramIcon style={{ color: 'white' }} />
       </a>
     </div>
   );

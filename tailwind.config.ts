@@ -13,6 +13,7 @@ export default {
 			'default': ['"Gotham"', "sans-serif"],
 		},
   		colors: {
+			"default-black": "#202020",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

@@ -19,7 +19,7 @@ const TeamSection = () => {
           {/* Departments */}
           {teamData.departments.map((department, departmentIndex) => (
             <div key={departmentIndex} className="mb-12">
-              <h4 className="text-2xl font-bold text-white mb-8">{department.name}</h4>
+              <h4 className="text-2xl font-bold text-black mb-8">{department.name}</h4>
               <div className="flex flex-wrap -mx-4">
                 {department.members.map((member, memberIndex) => (
                   <div
@@ -30,9 +30,9 @@ const TeamSection = () => {
                       <Image
                         src={member.image}
                         alt={member.name}
-                        width={150}
-                        height={150}
-                        className="block mb-6 rounded-full object-cover"
+                        width={344}
+                        height={296}
+                        className="block mb-6 object-cover"
                       />
                       <h3 className="mb-2 text-xl md:text-xl leading-tight font-semibold">
                         {member.name}

@@ -3,7 +3,7 @@ import SocialMediaIcons from './socialMedia';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-white py-6">
+    <footer className="bg-default-black text-white py-6">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center py-4 mb-20">
 
         {/* Left Side */}
