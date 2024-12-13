@@ -17,12 +17,12 @@ const ValuePropositions: React.FC = () => {
           </div>
 
           <div className="w-full lg:w-1/2 px-6">
-            <div className="relative overflow-hidden rounded-lg">
+            <div className="relative overflow-hidden ">
               <div className="absolute inset-0 bg-black opacity-30"></div>
               <img
                 src={prop.imageUrl}
                 alt={prop.title}
-                className="w-full h-auto object-cover rounded-lg"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>

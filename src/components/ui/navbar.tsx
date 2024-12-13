@@ -25,7 +25,6 @@ const Navbar: React.FC = () => {
                 height={50}
                 className="h-10 w-auto"
               />
-              <h3 className="text-2xl">Project 200</h3>
             </Link>
           </div>
           {/* Desktop Menu */}
