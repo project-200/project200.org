@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className="h-full">
       <HeroSection
-        imageUrl="/contact_hero.png"
+        imageUrl="/project200.org/contact_hero.png"
         description="Connect with us for inquiries, collaboration opportunities, or to learn how you can help."
         title="Connect with us to create impact"
       />
