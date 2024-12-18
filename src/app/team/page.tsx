@@ -4,7 +4,7 @@ import TeamSection from "@/components/ui/team";
 
 export default function Team() {
   return (
-    <div>
+    <div className="h-full">
       <HeroSection
         imageUrl="/team_hero.png"
         title="People Committed to Changing Lives"

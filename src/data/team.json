@@ -1,0 +1,44 @@
+{
+  "departments": [
+    {
+      "name": "Executive Team",
+      "members": [
+        {
+          "name": "Macauley Herring",
+          "role": "CEO & Founder",
+          "image": "/team_member.png"
+        },
+        {
+          "name": "Ivan Mathews",
+          "role": "CTO",
+          "image": "/team_member.png"
+        },
+        {
+          "name": "Elen Benitez",
+          "role": "CPO",
+          "image": "/team_member.png"
+        }
+      ]
+    },
+    {
+      "name": "Development Team",
+      "members": [
+        {
+          "name": "Alya Levine",
+          "role": "Backend Developer",
+          "image": "/images/photo-employee3.png"
+        },
+        {
+          "name": "Rose Hernandez",
+          "role": "iOS Developer",
+          "image": "/images/photo-employee2.png"
+        },
+        {
+          "name": "Macauley Herring",
+          "role": "Customer Success",
+          "image": "/images/photo-employee4.png"
+        }
+      ]
+    }
+  ]
+}
