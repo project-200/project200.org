@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Logo from "./logo";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,6 +47,12 @@ const Navbar: React.FC = () => {
           </div>
           {/* Mobile Menu Toggle */}
           <div className="md:hidden">
+            <button
+              className="default-text hover:text-project-200-red focus:outline-none"
+              onClick={toggleMenu}
+            >
+              ☰
+            </button>
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link
                 href="/"
