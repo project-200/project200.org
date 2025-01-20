@@ -1,5 +1,5 @@
 import FAQ from "@/components/ui/accordion";
-import Donate from "@/components/ui/donate";
+import ContactForm from "@/components/ui/contactForm";
 import HeroSection from "@/components/ui/heroSection";
 import ValuePropositions from "@/components/ui/valueProposition";
 
@@ -13,7 +13,8 @@ export default function Home() {
           description="Project 200 is dedicated to achieving the UN Sustainable Development Goals. Join us in creating a better world for all."
         />
         <ValuePropositions />
-        <Donate />
+        <ContactForm />
+
         <FAQ />
       </main>
     </div>

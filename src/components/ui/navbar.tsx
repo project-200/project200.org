@@ -26,18 +26,7 @@ const Navbar: React.FC = () => {
             <Link href="/" className="default-text hover:text-project-200-red">
               Home
             </Link>
-            <Link
-              href="/team"
-              className="default-text hover:text-project-200-red"
-            >
-              Team
-            </Link>
-            <Link
-              href="/projects"
-              className="default-text hover:text-project-200-red"
-            >
-              Projects
-            </Link>
+
             <Link
               href="/contact"
               className="default-text hover:text-project-200-red"
@@ -60,18 +49,7 @@ const Navbar: React.FC = () => {
               >
                 Home
               </Link>
-              <Link
-                href="/team"
-                className="block px-3 py-2 rounded-md default-text hover:bg-gray-100"
-              >
-                Team
-              </Link>
-              <Link
-                href="/projects"
-                className="block px-3 py-2 rounded-md default-text hover:bg-gray-100"
-              >
-                Projects
-              </Link>
+
               <Link
                 href="/contact"
                 className="block px-3 py-2 rounded-md default-text hover:bg-gray-100"
@@ -92,18 +70,7 @@ const Navbar: React.FC = () => {
             >
               Home
             </Link>
-            <Link
-              href="/team"
-              className="block px-3 py-2 rounded-md default-text hover:bg-gray-100"
-            >
-              Team
-            </Link>
-            <Link
-              href="/projects"
-              className="block px-3 py-2 rounded-md default-text hover:bg-gray-100"
-            >
-              Projects
-            </Link>
+
             <Link
               href="/contact"
               className="block px-3 py-2 rounded-md default-text hover:bg-gray-100"
